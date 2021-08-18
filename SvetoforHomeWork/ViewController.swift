@@ -17,13 +17,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         redView.alpha = 0.3
-        redView.layer.cornerRadius = 80
+        redView.layer.cornerRadius = redView.frame.width / 2
         
         yellowView.alpha = 0.3
-        yellowView.layer.cornerRadius = 80
+        yellowView.layer.cornerRadius = yellowView.frame.width / 2
         
         greenView.alpha = 0.3
-        greenView.layer.cornerRadius = 80
+        greenView.layer.cornerRadius = greenView.frame.width / 2
         
         startButton.layer.cornerRadius = 10
         startButton.setTitle("START", for: .normal)
